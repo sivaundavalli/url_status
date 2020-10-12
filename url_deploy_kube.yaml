@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: url
+  name: url
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: url
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: url
+    spec:
+      containers:
+      - image: sivvaundavalli/metrics:version2
+        name: metrics
+        resources: {}
