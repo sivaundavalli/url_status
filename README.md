@@ -90,6 +90,14 @@ This consists of multiple files. Here is the explanation of the files
 
     PS: i have tested this on minikube 1.14.0, kubernetes 1.19 and docker 19.03.8
     
+ 5. Grafana_Prometneus_images 
+ 
+    Link: https://github.com/sivaundavalli/url_status/tree/main/Grafana_Prometneus_images
+    
+    This folder contains the screenshots that are taken while pumping up the metrics to Grafana and prometheus. we can find a correlation between the spikes in the graphs to make sure grafana is showing that is sent bu prometheus server
+    
+    i have included multiple images for convenience
+    
     
 
     
