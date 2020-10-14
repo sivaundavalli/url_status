@@ -1,5 +1,6 @@
 The Current project contains multiple file that are responsible for querying and recording the response codes
-This consists of multiple files. Here is the explanation of the files
+
+Explanation of the files are as below
 
 
 1. metrics.py
