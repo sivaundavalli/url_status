@@ -21,7 +21,7 @@ def calculate_metrics():
       if status_code == 200:
        result1 = "<h2> sample_external_url_up{{url=\"{urls} \"}}""  =  1 <br> sample_external_url_response_ms{{url={urls}}}"  "= [{resp}]</h2>".format(urls=i,resp=resp_time)
       else:
-       result2 =("<h2> sample_external_url_up{{url = {urls}}}"  "= 1 <br>  sample_external_url_response_ms{{url={urls}}}"  "= [{resp}]</h2>".format(urls=i, resp=resp_time))
+       result2 =("<h2> sample_external_url_up{{url = {urls}}}"  "= 0 <br>  sample_external_url_response_ms{{url={urls}}}"  "= [{resp}]</h2>".format(urls=i, resp=resp_time))
   return  (result1+result2)
 
 if __name__ == '__main__':
