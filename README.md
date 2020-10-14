@@ -43,6 +43,8 @@ Explanation of the files are as below
      
      The output contains the promentheus format for the URL up/down status and the response time
      
+     i have included two screenshots named Main_Route.png and Metrics_Endpoint.png which shows metrics being published to /metrics endpoint
+     
      PS: To Avoid the time out issue i have given the timeout as 1 second
      
 3. Dockerfile
@@ -98,16 +100,3 @@ Explanation of the files are as below
     This folder contains the screenshots that are taken while pumping up the metrics to Grafana and prometheus. we can find a correlation between the spikes in the graphs to make sure grafana is showing that is sent bu prometheus server
     
     i have included multiple images for convenience
-    
-    
-
-    
-
-
-
-
-
-      
-      
-      
-      
