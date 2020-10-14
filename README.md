@@ -46,7 +46,7 @@ This consists of multiple files. Here is the explanation of the files
      
      PS: To Avoid the time out issue i have given the timeout as 1 second
      
-3. Dokkerfile
+3. Dockerfile
 
       Link: https://github.com/sivaundavalli/url_status/blob/main/Dockerfile
       
