@@ -7,7 +7,7 @@ Explanation of the files are as below
 
       Link: https://github.com/sivaundavalli/url_status/blob/main/metrics.py
 
-      This is the raw script that prints the contents to IDE consoleto run this script we need to have request module to be installed
+      This is the raw script that prints the contents to IDE consolet. To run this script we need to have request module to be installed
       
       Output:
       
@@ -49,7 +49,7 @@ Explanation of the files are as below
 
       Link: https://github.com/sivaundavalli/url_status/blob/main/Dockerfile
       
-      This is the Docker file to build the image from the existing script. this will take the contents of      requirements.txt(https://github.com/sivaundavalli/url_status/blob/main/requirements.txt) and install those as a dependancy. the requirements are to install flask and requests module
+      This is the Docker file to build the image from the existing flask script. This will take the contents of      requirements.txt(https://github.com/sivaundavalli/url_status/blob/main/requirements.txt) and install those as a dependancy. the requirements are to install flask and requests module
       once the docker build is completed i had pushed that to docker hub and made it publicaly available and below command can be used to pull and run the docker image
       
       Docker Image command: docker run sivvaundavalli/metrics &
