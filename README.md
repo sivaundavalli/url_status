@@ -96,7 +96,7 @@ This consists of multiple files. Here is the explanation of the files
     
     This folder contains the screenshots that are taken while pumping up the metrics to Grafana and prometheus. we can find a correlation between the spikes in the graphs to make sure grafana is showing that is sent bu prometheus server
     
-    i have included multiple images just to be safe
+    i have included multiple images for convineince 
     
     
 
