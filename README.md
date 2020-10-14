@@ -15,8 +15,11 @@ This consists of multiple files. Here is the explanation of the files
       The output of this script will look something like below
       
       sample_external_url_up{url="https://httpstat.us/200 "}  = 1
+      
       sample_external_url_response_ms{url="https://httpstat.us/200 "}  432.879
+      
       sample_external_url_up{url="https://httpstat.us/503"}  = 0
+      
       sample_external_url_response_ms{url="https://httpstat.us/503 "}  451.0
       
 2. metrics_flask.py
