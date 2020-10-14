@@ -7,7 +7,7 @@ Explanation of the files are as below
 
       Link: https://github.com/sivaundavalli/url_status/blob/main/metrics.py
 
-      This is the raw script that prints the contents to IDE consolet. To run this script we need to have request module to be installed
+      This is the raw script that prints the contents to IDE console. To run this script we need to have request module to be installed
       
       Output:
       
@@ -79,7 +79,7 @@ Explanation of the files are as below
   
     This is a Kubernetes deployment specfication file. once we run the abov file using the command kubectl create -f metrics_K8s.yaml or kubectl apply -f metrics_K8s.yaml
   
-    Here is the sample output after successfull kubernetes spinning up the deployment and the pod
+    Here is the sample output after successful kubernetes spinning up the deployment and the pod
     
     kubectl get pods,deploy
     NAME                       READY   STATUS    RESTARTS   AGE
@@ -97,6 +97,6 @@ Explanation of the files are as below
  
     Link: https://github.com/sivaundavalli/url_status/tree/main/Grafana_Prometneus_images
     
-    This folder contains the screenshots that are taken while pumping up the metrics to Grafana and prometheus. we can find a correlation between the spikes in the graphs to make sure grafana is showing that is sent bu prometheus server
+    This folder contains the screenshots that are taken while pumping up the metrics to Grafana and prometheus. we can find a correlation between the spikes in the graphs to make sure grafana is showing that is sent by prometheus server
     
     i have included multiple images for convenience
