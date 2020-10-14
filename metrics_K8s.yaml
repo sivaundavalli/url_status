@@ -16,6 +16,6 @@ spec:
         app: url
     spec:
       containers:
-      - image: sivvaundavalli/metrics:version2
+      - image: sivvaundavalli/metrics:version3
         name: metrics
         resources: {}
