@@ -6,9 +6,7 @@ This consists of multiple files. Here is the explanation of the files
 
       Link: https://github.com/sivaundavalli/url_status/blob/main/metrics.py
 
-      This is the raw script that prints the contents to IDE console
-      
-      to run this script we need to have request module to be installed
+      This is the raw script that prints the contents to IDE consoleto run this script we need to have request module to be installed
       
       Output:
       
